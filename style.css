@@ -1,0 +1,107 @@
+/* ================ADD GLOBAL CSS=============== */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.title{
+    font-size: 50px;
+    line-height: 1.3em;
+}
+h1{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 33px;
+}
+.theme-color{
+    color: orange;
+}
+p {
+    font-weight: 500;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.button{
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 9px 37px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, orange, orangered);
+}
+/* ================HEADER AREA CSS=============== */
+.header-area{
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+    padding-bottom: 75px;
+}
+.header-area .left {
+    padding: 6% 0 0 7%;
+}
+.header-area .right {
+    padding: 5% 0 0 5%;
+}
+.header-area .right img{
+    width: 91%;
+}
+/* ================DREAM AREA CSS=============== */
+.dream-area{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 35px;
+}
+.dream-area .right {
+    padding: 4% 9% 0 3%;
+}
+.dream-area img {
+    width: 100%;
+    padding-left: 22px;
+}
+/* ================EXPERIENCE AREA CSS=============== */
+.experience-area{
+    background-image: url('images/exp-bg.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 7%;
+}
+.experience-area h1{
+    margin-left: 65px;
+}
+.experience-item{
+    width: 40%;
+    margin: 0 5% 0 5%;
+    padding: 0 15px 50px 25px;
+    box-shadow: 7px 7px 23px #a0a0a0, -7px -7px 23px #a0a0a0;
+}
+#gradient-border{
+    border-image: linear-gradient(purple, orangered);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+#gradent-border{
+    border-image: linear-gradient(orangered, blue);
+    border-left: 7px solid;
+    border-image-slice: 1; 
+}
+.follow {
+    width: 139px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin: 125px auto 115px;
+}
+/* ================FOOTER AREA CSS=============== */
+footer p{
+    text-align: center;
+}
